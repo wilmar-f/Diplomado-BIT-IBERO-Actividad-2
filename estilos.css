@@ -18,6 +18,12 @@ p {
     letter-spacing: 1.3px;
 }
 
+header{
+    background-color: #449DD1;
+    padding: 15px 20px;
+}
+
+
 .hero {
     display: flex;
     flex-direction: column;
@@ -37,4 +43,26 @@ p {
     display: flex;
     gap: 15px;
     justify-content: center;
+}
+
+.hero h1 {
+  color: #0b4f8a;
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+}
+
+.hero p {
+  color: #333333;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.hero-adopta{   
+    border:none;
+    border-radius: 60px;
+    padding: 10px 20px;
+    background-color: #192BC2;
+    color:white;
+    font-weight: bold;
 }
