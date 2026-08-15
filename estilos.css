@@ -1,13 +1,40 @@
-h1{
-    color: red;
+/* UI KIT - COLORES PARA EL PROYECTO 
+#78C0E0
+#449DD1
+#192BC2
+#150578
+#0E0E52 */
+
+
+h1 {
+    font-family: 'Henny Penny', cursive;
+    color: #150578;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    text-align: justify;
+    letter-spacing: 1.3px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero p {
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 20px;
     text-align: center;
 }
 
-h2{
-    color: rgb(17, 151, 5);
-    
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
 }
-p{
-    font-family:cursive;
-}
-
