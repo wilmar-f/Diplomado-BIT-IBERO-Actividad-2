@@ -27,6 +27,7 @@ h2 {
 }
 
 .titulo-adopta h2 {
+    margin: 3rem 0;
     color: #005696;
     font-size: 1.5rem;
     text-align: center;
@@ -36,7 +37,10 @@ h2 {
 
 p {
     text-align: center;
-    letter-spacing: 1.3px;
+    letter-spacing: 1.5px;
+    font-size: 1.0rem;
+    font-family: 'arial', sans-serif;
+    color: #150578;
 }
 
 header{
@@ -56,6 +60,7 @@ header{
 
 
 .hero {
+    margin: 3rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -83,10 +88,12 @@ header{
 }
 
 .hero p {
+    margin: 3rem 0;
     color: #333333;
     max-width: 600px;
     margin: 0 auto;
     padding: 10px;
+    color: #150578;
 }
 
 .hero-adopta{   
@@ -99,6 +106,7 @@ header{
 }
 
 .disp-adopta{
+    margin: 3rem 0;
     display: flex;
     justify-content: center;
 
@@ -122,6 +130,7 @@ footer{
 }
 
 .about {
+    margin: 3rem 0;
     display: flex;
     gap: 30px;
     justify-content: center;
@@ -136,4 +145,45 @@ footer{
 .about-image img {
     width: 400px; height: 200px;
 
+}
+
+.info-contact {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.icono-red {
+    font-size: 32px;
+    color: black;
+    transition: color 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
+}
+
+.icono-red:hover {
+    transform: translateY(-3px);
+}
+
+/* Icono Facebook) */
+.icono-red[href*="facebook.com"]:hover {
+    color: #1877F2; 
+}
+
+/* Icono Instagram) */
+.icono-red[href*="instagram.com"]:hover {
+    color: #E1306C; 
+}
+
+/* Icono Azul Twitter clásico) */
+.icono-red[href*="x.com"]:hover,
+.icono-red[href*="twitter.com"]:hover {
+    color: #1DA1F2; 
 }
