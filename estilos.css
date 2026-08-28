@@ -194,3 +194,34 @@ footer{
 .icono-red[href*="twitter.com"]:hover {
     color: #1DA1F2; 
 }
+
+.btn-like {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;        /* Tamaño del ícono */
+}
+
+.btn-like:hover {
+    background-color: #ffe6e6;
+}
+
+/* 1. Contenedor: Controla la alineación del ícono y el número */
+.seccion-likes {
+  display: flex;          /* Alinea el corazón y el número en una sola línea */
+  align-items: center;    /* Centra verticalmente el ícono con el texto */
+  gap: 6px;               /* Espacio entre el corazón y el número */
+  margin-bottom: 8px;     /* Espacio antes del botón */
+  justify-content: flex-start; /* Alinea a la izquierda (cambia a 'center' para centrar) */
+}
+
+/* 2. Estilo del texto del contador (Número) */
+.contador-likes {
+  color: #2b2b2b;         /* Cambia el color del texto (ej. gris oscuro, azul, etc.) */
+  font-size: 15px;        /* Tamaño de la fuente */
+  font-weight: 600;       /* Grosor de la letra (semi-negrita) */
+  font-family: Arial, sans-serif; /* Tipografía personalizada */
+}
+
